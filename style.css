@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: url("pexels-grizzlybear-965878.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: lightgrey;
+    padding: 1.25rem;
+    border-radius: 0.44rem;
+    box-shadow: 0 0 0.652rem rgba(0, 0, 0, 0.1);
+    width: 21.88rem;
+    height: 400px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    z-index: 20;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#accessMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+}
+
+.full-access {
+    background: green;
+    color: white;
+}
+
+.member-access {
+    background: blue;
+    color: white;
+}
+
+.guest-access {
+    background: orange;
+    color: white;
+}
+
+.no-access {
+    background: red;
+    color: white;
+}

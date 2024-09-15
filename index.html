@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Management Access</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Check Access Level</h1>
-        <label for="role"> Select Role:</label>
-        <select id="role">
-            <option value="">Select item</option>
-            <option value="admin">Admin</option>
-            <option value="moderator">Moderator</option>
-            <option value="member">Member</option>
-            <option value="guest">Guest</option>
-        </select>
-        
-        <label for="age"> Select Age:</label>
-        <input type="number" id="age" placeholder="Enter your age">
-        
-        <button id="checkAccessBtn">Check Access</button>
+      <h1>Check Access Level</h1>
+      <label for="role"> Select Role:</label>
+      <select id="role">
+        <option value="">Select item</option>
+        <option value="admin">Admin</option>
+        <option value="moderator">Moderator</option>
+        <option value="member">Member</option>
+        <option value="guest">Guest</option>
+      </select>
 
-        <p id="accessMessage"></p>
+      <label for="age"> Select Age:</label>
+      <input type="number" id="age" placeholder="Enter your age" />
+
+      <button id="checkAccessBtn">Check Access</button>
+
+      <p id="accessMessage"></p>
     </div>
     <script src="management.js"></script>
-
-    
-</body>
+  </body>
 </html>
